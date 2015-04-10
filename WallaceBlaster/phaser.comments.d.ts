@@ -16056,6 +16056,14 @@ declare module Phaser {
 
     module Plugin {
 
+        class Debug extends Phaser.Plugin {
+            static VERSION: string;
+            constructor(parent: PIXI.DisplayObject);
+
+            parent: PIXI.DisplayObject;
+            version: string;
+        }
+
 
         /**
         * AStar is a phaser pathfinding plugin based on an A* kind of algorythm

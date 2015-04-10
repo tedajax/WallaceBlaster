@@ -28,6 +28,7 @@
     <Content Include="assets\title.mp3" />
     <Content Include="assets\titlepage.jpg" />
     <Content Include="index.html" />
+    <Content Include="phaser-debug.js" />
     <Content Include="phaser.js" />
     <Content Include="phaser.min.js" />
     <Content Include="web.config" />
@@ -35,6 +36,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="Boot.ts" />
+    <TypeScriptCompile Include="Bullet.ts" />
     <TypeScriptCompile Include="Game.ts" />
     <TypeScriptCompile Include="Level1.ts" />
     <TypeScriptCompile Include="MainMenu.ts" />

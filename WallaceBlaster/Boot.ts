@@ -1,4 +1,5 @@
-﻿module WallaceBlaster {
+﻿
+module WallaceBlaster {
     export class Boot extends Phaser.State {
         preload() {
             this.load.image('preloadBar', 'assets/loader.png');
@@ -8,6 +9,9 @@
             this.input.maxPointers = 1;
 
             this.stage.disableVisibilityChange = true;
+
+            this.time.advancedTiming = true;
+            this.time.desiredFps = 60;
 
             if (this.game.device.desktop) {
                 //this.stage.scale.pageAlignHorizontally = true;
